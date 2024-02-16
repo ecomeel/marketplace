@@ -1,10 +1,16 @@
-function Header() {
+import styles from "./header.module.scss";
+import loopIcon from "/src/assets/img/icons/search.png";
+export function Header() {
   return (
-    <header>
-      <h1 className="logo">Marketplace</h1>
-      <div className="search">
-        <img src="" alt="" />
-        <input type="text" />
+    <header className={styles.header}>
+      <h1 className={styles.logo}>Marketplace</h1>
+      <div className={styles.search}>
+        <img className={styles.search__img} src={loopIcon} alt="loop" />
+        <input
+          className={styles.search__input}
+          placeholder="Search for a product, flower, etc"
+          type="text"
+        />
       </div>
     </header>
   );
