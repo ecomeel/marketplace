@@ -1,0 +1,16 @@
+@import "./styles/reset";
+@import "./styles/commons";
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../fonts/Proxima\ Nova/);
+}
+
+body,
+html {
+  background-color: #171722;
+  font-family: "Proxima Nova";
+  color: #fff;
+  font-size: 16px;
+  line-height: 21.6px;
+  font-weight: 500;
+}
