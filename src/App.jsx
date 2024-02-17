@@ -1,10 +1,14 @@
 import "./App.scss";
 import { Header } from "./components/header/Header";
+import { Adjustment } from "./components/adjustment/Adjustment";
 
 function App() {
   return (
     <div className="container">
-      <Header></Header>
+      <Header />
+      <main>
+        <Adjustment />
+      </main>
     </div>
   );
 }
