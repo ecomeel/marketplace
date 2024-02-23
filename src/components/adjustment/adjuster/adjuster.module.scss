@@ -10,12 +10,12 @@
   justify-content: space-between;
 }
 .input {
-  padding: 1px 5px;
+  padding: 0 5px;
   display: inline-block;
   width: 12%;
 
   font-size: 14px;
-  line-height: 135%;
+  line-height: 110%;
   color: #fff;
 
   background-color: rgb(33, 33, 41);
@@ -32,8 +32,4 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.range-slider__thumb {
-  width: 16px;
-  height: 16px;
-}
 // Настроить range slider

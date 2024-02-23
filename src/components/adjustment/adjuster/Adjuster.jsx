@@ -2,6 +2,8 @@ import RangeSlider from "react-range-slider-input";
 import "react-range-slider-input/dist/style.css";
 
 import styles from "./adjuster.module.scss";
+import './slider.scss';
+
 export function Adjuster({ id, title, from, to, type }) {
   const sliderNode = document.getElementById(`slider${id}`);
   if (sliderNode) {

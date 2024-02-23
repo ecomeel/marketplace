@@ -1,0 +1,20 @@
+.range-slider {
+  margin-top: 24px;
+  margin-bottom: 15px;
+  height: 4px;
+  background: linear-gradient(rgb(133, 214, 45), rgb(107, 171, 43)) !important;
+  &__thumb {
+    width: 16px !important;
+    height: 16px !important;
+    background: linear-gradient(
+      rgb(133, 214, 45),
+      rgb(107, 171, 43)
+    ) !important;
+  }
+  &__range {
+    background: linear-gradient(
+      rgb(133, 214, 45),
+      rgb(107, 171, 43)
+    ) !important;
+  }
+}
